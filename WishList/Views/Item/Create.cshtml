@@ -1,14 +1,9 @@
 ﻿@model WishList.Models.Item
 
-<h3>
-    Add item to wishlist
-</h3>
-<form asp-action="create">
-    <input asp-for="Description"/>
-    <span asp-validation-for="Description">
+<h3>Add item to wishlist</h3>
 
-    </span>
-    <button type="submit">
-        Add Item
-    </button>
-</form>
+<form asp-action="create">
+    <input asp-for="Description" />
+    <span asp-validation-for="Description"></span>
+    <button type="submit">Add item</button>
+</form> 
